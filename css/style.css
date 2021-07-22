@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #315280;  
+}
+
+.box{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.boxMessage{
+    color: gray;
+    font-size: large;
+    text-align: center;
+    padding-top: 30vh;
+}
+
+.login{
+    max-width: 400px;
+    margin: 5vh auto;
+}
+
+.login h1{
+    color: #FFFFFF;
+    font-size: 80px;
+    text-align: center;
+}
+
+.login h4{
+    color: #a8dadc;
+    text-align: center;
+}
+
+#loginValidationMessage{
+    font-size: small;
+    margin: 1px;
+    color: #dc3545;
+}
+
+#toggle-pwd{
+    font-size: small;
+    margin-top: 10px;
+}
+
+.tasks{
+    margin-top: 15vh;
+}
+
+.tasks h2{
+    text-align: center;
+    color: #1D3557;
+}
+
+.task-controls{
+    margin-bottom: 5px;
+}
+
+.pending-tasks{
+    width: 60vw;
+    height: 55vh;
+}
+
+.completed-tasks{
+    width: 20vw;
+    height: 60vh;
+}
+
+@media (max-width: 992px){
+    .pending-tasks{
+        width: 70vw;
+        height: 62vh;
+    }
+    .completed-tasks{
+        width: 70vw;
+        height: 72vh;
+    }
+}
